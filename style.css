@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgba(211, 211, 211, 0.335);
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.511);
+
+
+}
+
+
+.navbardiv1 {
+    color: rgba(0, 0, 0, 0.857);
+    font-size: 32px;
+    font-weight: 550;
+    margin-left: 2vw;
+}
+
+
+.navbardiv1 .admin_logo {
+    color: rgba(0, 0, 0, 0.857);
+    text-decoration: none;
+}
+
+.navbardiv2 a {
+
+    margin-right: 13px;
+    text-decoration: none;
+}
+
+.offcanvas_data {
+
+    display: inline-block;
+    background-color: white;
+    width: 19vw;
+}
+
+.offcanvas_data .image_box {
+
+    height: 130px;
+    background-color: #8b7bff;
+
+}
+
+.row_data {
+    display: flex;
+}
+
+.dashboard_links {
+    display: block;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    color: #0000ff;
+
+}
+
+.dashboard_links i {
+
+    padding-left: 10px;
+    padding-right: 1vw;
+
+}
+
+.link_box {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.443);
+    display: block;
+    cursor: pointer;
+}
+
+.dropdown1_items_list {
+    display: block;
+    text-decoration: none;
+    color: #0000ff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+a {
+    cursor: pointer;
+}
+
+#dropdown3_items {
+
+    margin-left: 15px;
+}
+
+.panel-body {
+    box-sizing: border-box;
+    background-color: white;
+    margin: 30px;
+    width: 76vw;
+}
+
+.column-3,
+.column-5 {
+    height: 240px;
+}
+
+.disk_space {
+    background-color: #8b7bff;
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+}
+.bottom_text{
+   
+    /* background-color: #7479e6; */
+    font-size: 17px;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+    bottom: 0;
+
+      
+}
+.hundred{
+    background-color: #d9edf7;
+    color: #31708f;
+    font-size: 6rem;
+    text-align: center;
+
+}
+.hundred p{
+font-size: 14px;
+}
+
